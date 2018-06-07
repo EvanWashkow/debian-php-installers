@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Add the repository
 sudo add-apt-repository ppa:ondrej/php
 
