@@ -5,5 +5,5 @@
 #
 
 # Remove any previous PHP version
-sudo apt-get purge php5.*
-sudo apt-get purge php7.*
+yes | sudo apt-get purge php5.*
+yes | sudo apt-get purge php7.*

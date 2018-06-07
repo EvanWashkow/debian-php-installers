@@ -5,5 +5,5 @@
 #
 
 # Add the repository and refresh the package list
-sudo add-apt-repository ppa:ondrej/php
+yes | sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update

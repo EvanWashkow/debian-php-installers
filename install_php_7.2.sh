@@ -14,8 +14,8 @@ shared_scripts/add_php_repository.sh
 shared_scripts/uninstall_previous_php.sh
 
 # Install PHP 7.2 and common submodules
-sudo apt-get install php7.2
-sudo apt-get install php-curl php-mbstring php-xml
+yes | sudo apt-get install php7.2
+yes | sudo apt-get install php-curl php-mbstring php-xml
 
 # Restart apache
 sudo service apache2 restart
