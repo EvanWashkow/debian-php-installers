@@ -8,7 +8,7 @@
 cd $(dirname "$0")
 
 # Add third-party PHP repository
-scripts/add_php_repository.sh
+shared_scripts/add_php_repository.sh
 
 # Remove PHP 7.0
 sudo apt-get purge php7.*
