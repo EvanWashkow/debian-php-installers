@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#
+# Installs PHP 7.2, removing all other versions
+#
+
 # Add the repository
 sudo add-apt-repository ppa:ondrej/php
 
