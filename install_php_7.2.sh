@@ -4,11 +4,11 @@
 # Installs PHP 7.2, removing all other versions
 #
 
-# Add the repository
-sudo add-apt-repository ppa:ondrej/php
+# Switch to this script's directory
+cd $(dirname "$0")
 
-# Update the package list
-sudo apt-get update
+# Add third-party PHP repository
+scripts/add_php_repository.sh
 
 # Remove PHP 7.0
 sudo apt-get purge php7.*
