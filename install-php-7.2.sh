@@ -8,6 +8,6 @@
 cd $(dirname "$0")
 
 # Install PHP 7.2
-shared/install_preamble.sh
+shared/install-preamble.sh
 yes | sudo apt-get install php7.2
-shared/install_postamble.sh
+shared/install-postamble.sh
