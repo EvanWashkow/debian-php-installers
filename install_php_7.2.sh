@@ -8,10 +8,10 @@
 cd $(dirname "$0")
 
 # Add third-party PHP repository
-shared_scripts/add_php_repository.sh
+shared/add_php_repository.sh
 
 # Remove previous PHP versions
-shared_scripts/uninstall_previous_php.sh
+shared/uninstall_previous_php.sh
 
 # Install PHP 7.2 and common submodules
 yes | sudo apt-get install php7.2
