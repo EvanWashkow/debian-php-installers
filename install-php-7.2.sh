@@ -7,10 +7,14 @@
 # Switch to this script's directory
 cd $(dirname "$0")
 
-# Install PHP 7.2
+# Preamble
 shared/install-preamble.sh
+
+# Install PHP 7.2
 yes | sudo apt-get install php7.2
-shared/install-postamble.sh
 
 # Install common PHP submodules
 yes | sudo apt-get install php7.2-curl php7.2-mbstring php7.2-mysql php7.2-xml
+
+# Postamble
+shared/install-postamble.sh
